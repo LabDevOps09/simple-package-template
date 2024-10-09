@@ -1,27 +1,26 @@
-# package_name
+# Text Extractor
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Um pacote para extrair textos de imagens usando pytesseract, Pillow e OpenCV.
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Para instalar o pacote, use:
 
 ```bash
-pip install package_name
-```
+pip install -e .
 
-## Usage
+# Estrutura do Projeto:
 
-```python
-from package_name import file1_name
-file1_name.my_function()
-```
+text_extractor/
+│
+├── text_extractor/
+│   ├── __init__.py
+│   ├── extractor.py
+│   └── utils.py
+│
+├── README.md
+├── requirements.txt
+├── setup.py
+└── .gitignore
 
-## Author
-My_name
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
