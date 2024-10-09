@@ -1,1 +1,2 @@
-from text_extractor import extract_text, preprocess_image
+from .extractor import preprocess_image, extract_text
+
