@@ -7,15 +7,20 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    name="text_extractor",
+    version="0.1",
+    author="Sandra Costa",
+    author_email="sandralin.9@gmail.com",
+    description="Um pacote para extrair textos de imagens usando pytesseract",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/sannlin9/text_extractor_package",  # Atualize com seu repositório
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
 )
